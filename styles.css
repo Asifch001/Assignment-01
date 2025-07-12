@@ -1,6 +1,16 @@
 
 
-.raleway-normal{
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+.raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -11,16 +21,19 @@
     font-size:50px;
     font-weight: bold;
 }
+.bgi{
+    background-image: url(images/Hero-bg.png);
+}
 
 /* Button Styles */
 
 .sup-btn{ 
     font-weight: bold;
     font-size: larger;
-    background-color: skyblue;
+    background-color: blueviolet;
     color: white;
     border-radius: 5px;
-    border-color: skyblue;
+    border: none;
     cursor: pointer;
     padding: 12px 36px;
 }
@@ -29,16 +42,24 @@
 
 nav{
     display: flex;
-    background-image: url(Hero-bg.png);
     color: blueviolet;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 5px 600px;
+    padding-bottom: 158px;
 }
 
 nav li{
     list-style: none;
     margin-right: 700px;
-    
+}
 
+/*Banner Section*/
+
+.center {
+    text-align: center;
+    padding-bottom: 37px;
+}
+.quote{
+    font-size:65px;
+    font-weight: bold;
 }
