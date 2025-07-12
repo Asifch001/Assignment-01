@@ -1,0 +1,44 @@
+
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.logo{
+    font-size:50px;
+    font-weight: bold;
+}
+
+/* Button Styles */
+
+.sup-btn{ 
+    font-weight: bold;
+    font-size: larger;
+    background-color: skyblue;
+    color: white;
+    border-radius: 5px;
+    border-color: skyblue;
+    cursor: pointer;
+    padding: 12px 36px;
+}
+
+/*Navbar Styles*/
+
+nav{
+    display: flex;
+    background-image: url(Hero-bg.png);
+    color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 600px;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 700px;
+    
+
+}
