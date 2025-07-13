@@ -109,7 +109,7 @@ nav li{
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     
 }
 .action-items{
@@ -127,7 +127,7 @@ nav li{
     color: #000000;
 
 }
-.image{
+.action-img{
     border-radius: 20px;
     width: 50%;
     height: 50%;
@@ -136,9 +136,10 @@ nav li{
 /* Productive user Section */
 
 .users{
-    background-color: skyblue;
+    background-color: whitesmoke;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 150px;
     border-radius: 20px;
     padding: 50px 80px;
 }
@@ -153,6 +154,7 @@ nav li{
 .users-font{
     font-size: 80px;
     font-weight: bold;
+    color:blueviolet
 }
 .pfont{
     font-size: 20px;
@@ -170,4 +172,50 @@ nav li{
 .p-margin{
     margin-top: 0px;
     text-align: center;
+}
+
+/* Review Section */
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.rev-margin{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+.reviewer-allign{
+    display: flex;
+    align-items: center;
+}
+.rev-items{
+    justify-content: space-around;
+    align-items: center;
+}
+.reviewer-bg{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Community Section*/
+
+.cmnty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding: 71px 150px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.grayfont{
+    font-weight: 400;
+    color: grey;
+    font-size: 20px;
+    margin: 0;
 }
