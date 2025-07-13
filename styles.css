@@ -1,5 +1,9 @@
 
-
+.ramaraja{
+  font-family: "Ramaraja", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .inter{
   font-family: "Inter", sans-serif;
@@ -8,8 +12,6 @@
   font-style: normal;
 }
 
-
-
 .raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -17,25 +19,51 @@
   font-style: normal;
 }
 
-.logo{
-    font-size:50px;
-    font-weight: bold;
-}
 .bgi{
     background-image: url(images/Hero-bg.png);
 }
 
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size:50px;
+    font-weight: bold;
+}
+
 /* Button Styles */
 
-.sup-btn{ 
+.nav-btn{ 
     font-weight: bold;
-    font-size: larger;
+    font-size: 16px;
     background-color: blueviolet;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     padding: 12px 36px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.nav-btn:hover{
+    background-color: darkblue;
+    transform: scale(1.25);
+}
+
+.demo-btn{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 12px 36px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.demo-btn:hover{
+    background-color: darkblue;
+    transform: scale(1.25);
 }
 
 /*Navbar Styles*/
@@ -46,11 +74,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 158px;
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 
 nav li{
     list-style: none;
-    margin-right: 700px;
+    margin-right: 1000px;
 }
 
 /*Banner Section*/
@@ -62,4 +93,81 @@ nav li{
 .quote{
     font-size:65px;
     font-weight: bold;
+}
+.cntr-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+/*Action Section*/
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    
+}
+.action-items{
+    padding-right: 203px;
+}
+.title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.description{
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    color: #000000;
+
+}
+.image{
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+}
+
+/* Productive user Section */
+
+.users{
+    background-color: skyblue;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    padding: 50px 80px;
+}
+
+.users-title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.users-font{
+    font-size: 80px;
+    font-weight: bold;
+}
+.pfont{
+    font-size: 20px;
+    font-weight: normal;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h1-margin{
+    margin-bottom: 5px;
+    text-align:center;
+}
+.p-margin{
+    margin-top: 0px;
+    text-align: center;
 }
