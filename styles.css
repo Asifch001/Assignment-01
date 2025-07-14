@@ -46,7 +46,7 @@ a{
 }
 .nav-btn:hover{
     background-color: darkblue;
-    transform: scale(1.25);
+    transform: scale(1.05);
 }
 
 .demo-btn{
@@ -63,7 +63,7 @@ a{
 
 .demo-btn:hover{
     background-color: darkblue;
-    transform: scale(1.25);
+    transform: scale(1.05);
 }
 
 /*Navbar Styles*/
@@ -213,9 +213,87 @@ nav li{
     background-color: whitesmoke;
     border-radius: 20px;
 }
-.grayfont{
-    font-weight: 400;
-    color: grey;
-    font-size: 20px;
+
+/* Get in Touch Section */
+.touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+
+.formfont{
+    font-weight: 500;
+    font-size: 18px;
     margin: 0;
+}
+
+.forminput{
+    font-weight: normal;
+    font-size: 20px;
+    padding: 20px 32px; 
+    width: 450px;
+}
+
+.touch-btn{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 19px 101px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 520px;
+    margin-top: 19px;
+}
+
+.touch-btn:hover{
+    background-color: darkblue;
+    transform: scale(1.05);
+}
+
+/* Footer Section */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 103px;
+    padding-bottom: 104px;
+    padding-left: 454px;
+    padding-right: 455px;
+}
+
+.logo-footer{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: blueviolet;
+    margin-bottom: 0;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-bottom: 8px;
+}
+
+.help-desc{
+    color: #8987A1;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.link-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-font{
+    color: #8987A1;
+    font-size: 20px;
+    margin-right: 20px;
 }
